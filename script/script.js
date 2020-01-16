@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const goodsWrapper = document.querySelector('.goods-wrapper'); // Обертка карточки товаров 
     const cart = document.querySelector('.cart'); // Корзина
 
+    
+
     const createCardGoods = (id, title, price, img) => {
         const card = document.createElement('div');
         card.className = 'card-wrapper col-12 col-md-6 col-lg-4 col-xl-3 pb-3';
