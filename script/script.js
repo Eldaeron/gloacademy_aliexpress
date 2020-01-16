@@ -51,10 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
         //console.log(event);
     }
     const checkEsc = (event) => {
-        if (cart.style.display === 'flex') { // если корзина открыта
-            if (event.keyCode === 27) { //
-                cart.style.display = '';
-            }
+        if (cart.style.display === 'flex' && event.keyCode === 27) { // если корзина открыта
+            cart.style.display = '';
         }
     }
 
