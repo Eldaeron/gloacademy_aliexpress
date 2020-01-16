@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <div class="card-price">${price}</div>
                                 <div>
                                     <button class="card-add-cart"
-                                        data-goods-id="${id}>Добавить в корзину</button>
+                                        data-goods-id="${id}">Добавить в корзину</button>
                                 </div>
                             </div>
                         </div>`;
